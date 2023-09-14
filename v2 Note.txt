@@ -1,5 +1,5 @@
 How to Import 
-1. Use XAMPP v3.3.0 (other bit and version works too)
+1. Download XAMPP v3.3.0 (other bit and version works too)
 2. Create a new database and import gip_database.sql
 3. Copy mysql and htdocs folder to XAMPP root folder
 
