@@ -54,7 +54,7 @@
                                             ?>
                         <tr class="table-body" style="font-size:15px;">
                         <td>
-                        <a style="color: #gray; text-decoration: none;" href="gipedit.php?personal_id=<?php echo $row['personal_id']; ?>"><?php echo $row['name']; ?></a>
+                        <a style="color: black; text-decoration: none;" href="gipedit.php?personal_id=<?php echo $row['personal_id']; ?>"><?php echo $row['name']; ?></a>
                         </td>
                         <td><?php echo $row["address"]; ?></td>
                         <td><?php echo $row["birth_date"]; ?></td>

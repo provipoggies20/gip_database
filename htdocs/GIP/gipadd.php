@@ -43,10 +43,10 @@ include 'connection.php';
 <body>
 <?php include 'header.php'; ?>
     <div style="font-family:genshin; font-size: 35px; text-align: center;">
-        <form method="POST" style="font-family:genshin; font-size:20px;">
+        <form method="POST" style="font-family:genshin; font-size:20px; ">
             <h1 style="background: radial-gradient(circle at 20%,#e45f12, #e325fa);">REGISTRY</h1>
             <label for="name">Name (Last, Suffix, First, MI):</label><br>
-            <input style="border: 3px solid #555; font-family: genshin; font-size: 15px; text-align: center; width:20%;" type="text" name="name" autocomplete="off" required />
+            <input style="border: 3px solid #555; font-family: genshin  ; font-size: 15px; text-align: center; width:20%;" type="text" name="name" autocomplete="off" required />
             <br><br>
             <label for="address">Address (Municipality, Province):</label><br>
             <input style="border: 3px solid #555; font-family: genshin; font-size: 15px; text-align: center; width:20%;" type="text" name="address" autocomplete="off" required />
