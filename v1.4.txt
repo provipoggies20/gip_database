@@ -1,0 +1,23 @@
+v1.4 - 9/16/2023
+
+How to Import 
+1. Download XAMPP v3.3.0 (other bit and version works too)
+2. Create a new database and import gip_database.sql
+3. Copy htdocs folder to XAMPP root folder
+
+Changes
+1. Simplified Add & Edit Forms
+2. Integrated Composer and PHPSpreadsheet for parsing .xlsx file
+3. Added download option in Contracts (.xlsx file)
+4. Database for List of Beneficiary as of August 31, 2023
+5. Editable like Excel List of Beneficiary (incl. Sort Buttons for Months)
+6. Optimized code and move styles to CSS (not everything)
+
+Major Changes needed:
+1. List of Beneficiaries page needs to be cleaned
+
+Minor Changes needed:
+1. Simplify and Optimized code incl. CSS 
+
+Daily Reports:
+1. Need more Feedbacks!

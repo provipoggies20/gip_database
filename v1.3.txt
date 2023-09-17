@@ -1,0 +1,21 @@
+v1.3 - 9/13/2023
+
+How to Import 
+1. Download XAMPP v3.3.0 (other bit and version works too)
+2. Create a new database and import gip_database.sql inside of Contracts Data
+3. Copy htdocs folder to XAMPP root folder
+
+Changes
+1. Appropriate Filter Text
+2. Instead of resetting cookies, CSS changed for hyperlinks
+3. Tabletry hiding itself after Filter Input has a character
+4. Sorting Options (5 Options)
+
+Major Changes needed:
+1. Justified Forms
+
+Minor Changes needed:
+1. Simplify and Optimized code incl. CSS 
+
+Daily Reports:
+1. Need more Feedbacks!
