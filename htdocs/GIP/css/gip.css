@@ -1,19 +1,184 @@
-.body{background: radial-gradient(circle at 50%,#fffbfb, #6e6e6e);}
-.container-max{display: flex; justify-content: center; height: 100%; width: 100%;}
-.container-header{width: 100%; background-color: rgba(240, 255, 243, 0.831);}
-.container-display{width: 100%; height: 100%; background-color: rgba(240, 248, 255, 0.831);}
-.container-display .container-add{width: 50%; font-family: genshin; align-items: center; font-size: large;}
-.container-max .giplogo{width: 500px; margin-top: 200px;}
-.container-header .giplogoheader{width: 100px;}
-.container-header .headertext{font-family: genshin; font-size: 50px; text-align: center;}
-.container-display .table-display{font-family: genshin; text-align: center; text-transform: uppercase; width: 100%; height: 100%;}
-.container-display .table-display .table-head{background-color: rgb(111, 116, 112); width: 100%; height: 100%;}
-.container-display .table-display .table-body{background-color: rgb(190, 195, 180); width: 100%; height: 100%;}
-.input[type=text]:focus {
-    border: 3px solid #555;
-    font-family: genshin; 
-    font-size: 15px; 
-    text-align: center; 
-    width:20%;}
-@font-face{font-family: genshin; src: url("../fonts/genshin.ttf")}  
+body {
+  background: radial-gradient(circle at 50%, #fffbfb, #6e6e6e);
+  margin: 0;
+  height: 100%;
+  font-family: genshin;
+  font-size: 15px;
+}
 
+.link-style {
+  color: black;
+  font-family: genshin;
+  font-size: 15px;
+  text-align: center;
+  width: 20%;
+  text-decoration: none; /* Remove underline */
+}
+
+.download-link {
+  color: green;
+}
+
+.container-max {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container-header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-display {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0.831);
+  display: flex; /* Added to make it a flex container */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.container-display .container-add {
+  width: 50%;
+  font-family: genshin;
+  align-items: center;
+  font-size: large;
+}
+
+.giplogo {
+  width: 500px;
+  margin-top: 200px;
+  animation: bounce 2s infinite;
+}
+
+.giplogoheader {
+  width: 100px;
+  height: auto;
+}
+ 
+.headertext {
+  font-family: genshin;
+  font-size: 50px;
+  text-align: center;
+}
+
+.table-display {
+  font-family: genshin;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+.table-head {
+  background-color: rgb(111, 116, 112);
+  width: 100%;
+  height: 100%;
+}
+
+.table-body {
+  background-color: rgb(190, 195, 180);
+  width: 100%;
+  height: 100%;
+}
+
+.input[type=text]:focus {
+  border: 3px solid #555;
+  font-family: genshin;
+  font-size: 15px;
+  text-align: center;
+  width: 15%;
+}
+
+.form-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  font-family: genshin;
+}
+
+.form-column label,
+.form-column input,
+.form-column select {
+  font-family: genshin;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.button-div{
+  padding: 20px;
+  padding-left: 80px;
+  height: auto;
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.form-submit{
+  font-size: 20px;
+  font-family: genshin;
+}
+
+.form-back{
+  margin-left: 500px;
+  font-size: 20px;
+  color: red;
+}
+
+#editableTable {
+  border-collapse: collapse;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#editableTable th, #editableTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+#editableTable th {
+  background-color: #f2f2f2;
+}
+
+#editableTable tr:hover {
+  background-color: #f5f5f5;
+}
+
+#editableTable td[contenteditable="true"] {
+  background-color: #fff;
+  outline: none;
+}
+
+/* Apply custom styles for editable cells */
+#editableTable td[contenteditable="true"]:focus {
+  border: 1px solid #555;
+  font-family: genshin;
+  font-size: 15px;
+  text-align: center;
+  width: 20%;
+}
+
+@font-face {
+  font-family: genshin;
+  src: url("../fonts/genshin.ttf");
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
