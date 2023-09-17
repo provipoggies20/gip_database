@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/gip.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/master.js"></script>
         <?php include "header.php";
         include "connection.php";?>
     </head>
@@ -13,16 +13,18 @@
         <div class="search-box">
             <h3 style="font-family: genshin;">Filter Rows</h3>
                     <input id="filterInput" style="border: 3px solid #555; font-family: genshin; font-size: 15px; text-align: center; width:20%;" type="text" autocomplete="off" placeholder="..."   />
-                    | <a style="color: black; font-family: genshin; font-size: 15px; text-align: center; width:20%;" href="?sort=asc">Sort Ascending</a> 
-                    | <a style=" color: black; font-family: genshin; font-size: 15px; text-align: center; width:20%;" href="?sort=desc">Sort Descending</a>
-                    | <a style="color: black; font-family: genshin; font-size: 15px; text-align: center; width:20%;" href="?sort=id">Sort by Date Added</a>
-                    | <a style="color: black; font-family: genshin; font-size: 15px; text-align: center; width:20%;" href="?sort=address">Sort by Municipality</a>
-                    | <a style="color: black; font-family: genshin; font-size: 15px; text-align: center; width:20%;" href="?sort=gender">Sort by Gender</a>
+                    <a class="link-style" href="?sort=asc">Sort Ascending</a> |
+                    <a class="link-style" href="?sort=desc">Sort Descending</a> |
+                    <a class="link-style" href="?sort=id">Sort by Date Added</a> |
+                    <a class="link-style" href="?sort=address">Sort by Municipality</a> |
+                    <a class="link-style" href="?sort=gender">Sort by Gender</a> |
+                    <a class="download-link" href="downloadcontracts.php">Download as Excel</a>
                     <div class="result">
         </div>
         <br>
         <div id="tableContainer" class="container-display">
                 <h1 style="font-family: genshin; text-align: center;">TABLETRY</h1>
+                <h3><i>Check Raw Beneficiaries as a basis for Past Contracts</i></h3>
                 <table class="table-display">
                     <thead class="table-head"  style="font-size:20px;">
                         <tr>

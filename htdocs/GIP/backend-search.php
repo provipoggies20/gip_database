@@ -10,8 +10,6 @@
     <body>
         <br>
         <div class="container-display">
-            <?php
-            ?>
                 <table class="table-display" style="font-size:20px;">
                     <thead class="table-head">
                         <tr>
@@ -68,7 +66,7 @@
                         }
                     } else{
                         echo "<p style='font-family: genshin';>No matches found</p>";?>
-                        <a type="submit" style="font-family:genshin; padding-bottom: 50px;" href="gipadd.php">&#43; ADD</a>
+                        <a type="submit" class="download-link" href="gipadd.php">&#43; ADD</a>
                     </div>
                     <?php
                     }

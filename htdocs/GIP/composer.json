@@ -1,0 +1,13 @@
+{
+    "name": "gip/gip",
+    "description": "for gip",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "authors": [
+        {
+            "name": "chino abbagu"
+        }
+    ]
+}

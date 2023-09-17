@@ -5,12 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/gip.css">
-    </script>
+        <script src="js/master.js"></script>
+        <?php include "header.php";
+        include "connection.php";?>
     </head>
     <body>
-        <div class="container-max">
-            <form action="what.php" method="POST">
-            <input class="giplogo" type="image" src="images/giplogo.png" alt="start">
-            </form>
-        </div>
+    <a href="giptable.php">Contracts</a>
+    <a href="gipbeneficiaries.php">List of Beneficiaries</a>
     </body>
+</html>
