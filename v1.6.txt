@@ -1,0 +1,30 @@
+v1.6 - 9/19/2023
+
+How to Import 
+1. Download XAMPP v3.3.0 (other bit and version works too)
+2. Create a new database and import gip_database.sql
+3. Copy htdocs folder to XAMPP root folder
+
+How to Download
+1. Download Latest Composer
+2. Download Latest XAMPP
+3. Type in CMD
+	1. cd C:/xampp/htdocs/*folder
+	2. composer require phpoffice/phpspreadsheet
+	3. composer require phpoffice/phpword
+
+Changes
+1. Fixed bugs
+2. Added Form F to redirect to Drive
+3. Disabled reference link for List Of Beneficiaries (Work In Progress)
+4. Certification on Editry (Work In Progress)
+
+
+Updates needed
+1. List of Beneficiaries to redirect to local file
+2. Certification as a Word based on personal_id on Editry
+3. Move JavaScript to js
+4. Drive Reports to add in system as a redirector
+
+Daily Reports:
+1. Need more Feedbacks!

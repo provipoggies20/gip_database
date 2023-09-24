@@ -1,0 +1,28 @@
+v1.5 - 9/18/2023
+
+How to Import 
+1. Download XAMPP v3.3.0 (other bit and version works too)
+2. Create a new database and import gip_database.sql
+3. Copy htdocs folder to XAMPP root folder
+
+How to Download
+1. Download Latest Composer
+2. Download Latest XAMPP
+3. Type in CMD
+	1. cd C:/xampp/htdocs/*folder
+	2. composer require phpoffice/phpspreadsheet
+	3. composer require phpoffice/phpword
+
+Changes
+1. Checkboxes for Multiple Contracts
+2. Disabled reference link for List Of Beneficiaries (Work In Progress)
+
+Major Updates needed:
+1. List of Beneficiaries page needs to be edited
+
+Minor Updates needed:
+1. Simplify and Optimized code incl. CSS 
+2. Move JavaScript to js
+
+Daily Reports:
+1. Need more Feedbacks!

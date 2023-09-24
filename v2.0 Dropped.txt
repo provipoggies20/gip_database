@@ -1,0 +1,16 @@
+v2.0 - 9/24/2023
+
+NOTE! This project is dropped. This project will not be updated anymore beyond 2.0. 
+
+How to Import 
+1. Download XAMPP v3.3.0 (other bit and version works too)
+2. Create a new database and import gip_database.sql
+3. Copy htdocs folder to XAMPP root folder
+
+How to Download
+1. Download Latest Composer
+2. Download Latest XAMPP
+3. Type in CMD
+	1. cd C:/xampp/htdocs/*folder
+	2. composer require phpoffice/phpspreadsheet
+	3. composer require phpoffice/phpword
