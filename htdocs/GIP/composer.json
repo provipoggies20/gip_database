@@ -3,7 +3,15 @@
     "description": "for gip",
     "type": "project",
     "require": {
-        "phpoffice/phpspreadsheet": "^1.29"
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpoffice/phpword": "^1.1",
+        "mikehaertl/php-pdftk": "^0.13.0",
+        "dompdf/dompdf": "^2.0",
+        "jossmp/pdftotext": "^1.1",
+        "tecnickcom/tc-lib-pdf": "^8.0",
+        "tecnickcom/tcpdf": "^6.6",
+        "setasign/fpdi": "^2.4",
+	"tinybutstrong/opentbs": "1.*"
     },
     "authors": [
         {

@@ -1,9 +1,26 @@
 body {
   background: radial-gradient(circle at 50%, #fffbfb, #6e6e6e);
-  margin: 0;
   height: 100%;
   font-family: genshin;
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
 }
 
 .link-style {
@@ -19,6 +36,10 @@ body {
   color: green;
 }
 
+.good-link {
+  color: purple;
+}
+
 .container-max {
   display: flex;
   justify-content: center;
@@ -28,9 +49,13 @@ body {
 }
 
 .container-header {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff; 
+  z-index: 100; 
 }
+
 
 .container-display {
   width: 100%;
@@ -49,6 +74,11 @@ body {
   font-size: large;
 }
 
+.search_box{
+  display: flex;
+  margin-left: 300px;
+}
+
 .giplogo {
   width: 500px;
   margin-top: 200px;
@@ -57,9 +87,8 @@ body {
 
 .giplogoheader {
   width: 100px;
-  height: auto;
 }
- 
+
 .headertext {
   font-family: genshin;
   font-size: 50px;
@@ -141,7 +170,7 @@ body {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap; 
 }
 
 #editableTable th {
@@ -157,13 +186,53 @@ body {
   outline: none;
 }
 
-/* Apply custom styles for editable cells */
 #editableTable td[contenteditable="true"]:focus {
   border: 1px solid #555;
   font-family: genshin;
   font-size: 15px;
   text-align: center;
   width: 20%;
+}
+
+.container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Allow the container to grow and push the footer to the bottom */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.choices-column {
+  background-color: #f2f2f2;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choices-column img.giplogo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.choices-column button {
+  margin: 5px 0;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 @font-face {
